@@ -34,3 +34,19 @@ nav > a {
     
 }
 
+main{
+    margin: 0 auto;
+    background-color: var(--cor2);
+    height: 100vh;
+    max-width: 1800px
+}
+
+#destaque {
+    background-color: var(--cor4);
+    background-image: url(imagens/destaque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    
+}
+
