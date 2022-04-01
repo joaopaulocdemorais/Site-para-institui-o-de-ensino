@@ -16,6 +16,10 @@
     padding: 0;
 }
 
+body{
+    font-family: var(--texto);
+}
+
 header{
     padding: 10px;
     background-color: var(--cor1);
@@ -26,7 +30,6 @@ header{
 
 
 nav > a {
-    font-family: var(--texto);
     text-decoration: none;
     color: #ffffff;
     margin: 0 40px; 
@@ -50,7 +53,7 @@ main{
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.726);
+    background-color: #164a4694;
     color: white;
 }
 
@@ -60,7 +63,7 @@ main{
     text-align: center;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%,-50%);
 }
 
@@ -70,7 +73,27 @@ main{
 }
 
 .textoFrase{
-    font-family: var(--texto);
     font-size: 1.2em;
+}
+
+#inscricao{
+    height: 200px;
+    background-color: var(--cor4);
+}
+
+#inscricao > a {
+    font-weight: 500;
+    text-decoration: none;
+    background-color: var(--cor0);
+    padding: 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    box-shadow: 1px 1px 5px black   ;
+}
+
+#inscricao > a:hover {
+    background-color: var(--cor1);
+    color: #000000;
+    font-weight: bolder;
 }
 
