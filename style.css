@@ -111,3 +111,27 @@ main{
     font-weight: bolder;
 }
 
+#cursos{
+    background-image: url(imagens/fundo-cursos.jpg);
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+}
+
+#cursos > div {
+    width: 100%;
+    height: 100%;
+    background-color: #164a4694;
+    color: white;
+}
+
+#teste{
+    height:600px;
+    background-color: #000000;
+}
+
+#box-curso{
+    width: 200px;
+    height: 400px;
+    background: #ffffff;
+}
