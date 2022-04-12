@@ -186,3 +186,23 @@ footer > section{
     color: #ffffff;
     width: 400px;
 }
+
+footer > section.redes{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > section h1{
+    margin-bottom: 50px;
+}
+
+footer > section a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px
+}
+
+footer > section p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
