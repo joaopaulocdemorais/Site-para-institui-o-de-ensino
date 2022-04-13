@@ -17,8 +17,10 @@
 }
 
 body{
+    margin: 0 auto;
     font-family: var(--texto);
-    
+    max-width: 1800px;
+    background-color: var(--cor2);
 }
 
 header{
@@ -37,10 +39,7 @@ nav > a {
 }
 
 main{
-    margin: 0 auto;
-    background-color: var(--cor2);
     height: 1400px;
-    max-width: 1800px
 }
 
 #destaque {
@@ -178,18 +177,26 @@ footer{
     height:500px;
     background-color: #000000;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 footer > section{
     margin-top: 30px;
     color: #ffffff;
     width: 400px;
+  
+}
+
+footer > section:nth-child(3n){
+    padding-left: 20px;
+    border-left: 5px solid var(--cor1);
 }
 
 footer > section.redes{
     display: flex;
     flex-direction: column;
+    padding-right: 20px;
+    border-right: 5px solid var(--cor1);
 }
 
 footer > section h1{
@@ -205,4 +212,9 @@ footer > section a{
 footer > section p{
     text-align: justify;
     margin-bottom: 10px;
+}
+
+footer > section span{
+    display: flex;
+    margin: 10px;
 }
