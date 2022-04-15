@@ -1,0 +1,6 @@
+main{
+    background-image: url("imagens/fundo-cursos.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1800px;
+}
