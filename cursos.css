@@ -1,6 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+:root {
+    --texto: 'Roboto Slab', serif;
+    --destaque: 'Charm', cursive;
+    
+    --cor0: #164A46;
+    --cor1: #257D77;
+    --cor2: #57918D;
+    --cor3: #3CC9C0;
+    --cor4: #79C9C4;
+}
 main{
     background-image: url("imagens/fundo-cursos.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 1800px;
+}
+
+.cursos-geral {
+    height: 100%;
+    background-color: #164a4694;
+}
+
+.cursos-geral h1{
+    text-align: center;
+    font-family: var(--destaque);
+    color: #ffffff;
+    font-size: 4em;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.cursos-geral > p{
+    margin: 0 auto;
+    text-align: justify;
+    font-family: var(--texto);
+    color: #ffffff;
+    width: 75%;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.curso{
+    width: 100%;
+    height: 300px;
+    background-color: #3cc9c0ab;
+    display: flex;
 }
