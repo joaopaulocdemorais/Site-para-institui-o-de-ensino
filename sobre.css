@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+:root {
+    --texto: 'Roboto Slab', serif;
+    --destaque: 'Charm', cursive;
+    
+    --cor0: #164A46;
+    --cor1: #257D77;
+    --cor2: #57918D;
+    --cor3: #3CC9C0;
+    --cor4: #79C9C4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 1800px;
+    background-image: url("imagens/fundo-sobre.jpg");
+    background-size: cover;
+}
