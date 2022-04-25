@@ -20,10 +20,40 @@ main{
     background-image: url("imagens/fundo-cursos.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 3705px;
+    height: 1500px;
 }
 
 main section {
     height: 100%;
-    background-color: #ffffffe5;
+    background-color: #fffffff5;
+    padding: 20px 100px 20px 100px;
+    text-align: justify;
 }
+
+main section h1,h2,h3{
+    font-family: var(--destaque);
+    color: var(--cor1);
+}
+main section h1{
+    font-size:2.5em;
+    font-weight: bold;
+    margin: 50px 0px 50px 0px;
+}
+
+main section h2,h3{
+    font-size: 2em;
+    margin: 30px 0px 30px 0px;
+}
+
+main section h3{
+    font-size: 1.8em;
+}
+
+main section p {
+    text-indent: 40px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: var(--cor0);
+}
+
