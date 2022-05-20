@@ -16,6 +16,34 @@ main{
     height: 1800px;
 }
 
-main > section:nth-child(1){
-    margin-top: 200px;
+main h1{
+    margin-top: 100px;
+    font-family: var(--destaque);
+    text-align: center;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+main span {
+    display: flex;
+    justify-content: space-around;
+}
+main > span section:nth-child(1){
+    margin-top: 150px;
+    background-color: #ffffff;
+    width: 45%;
+    box-shadow: 1px 1px 20px black;
+
+    color: var(--cor0);
+    padding: 20px;
+}
+
+main >  span section:nth-child(2){
+    margin-top: 150px;
+    background-color: #ffffff;
+    width: 45%;
+    box-shadow: 1px 1px 20px black;
+
+    color: var(--cor0);
+    padding: 20px;
 }
