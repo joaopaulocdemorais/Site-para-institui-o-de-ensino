@@ -47,3 +47,29 @@ main >  span section:nth-child(2){
     color: var(--cor0);
     padding: 20px;
 }
+
+#iName, #iTitulo{
+    margin: 5px;
+    width: 95%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #164a46e5;
+    
+}
+
+#botao{
+ background-color: var(--cor0);
+ padding: 10px 30px;  
+ border-radius: 15px;
+ color: #ffffff;
+ font-weight: bold;
+ border: none;
+ box-shadow: 1px 1px 5px black;
+}
+
+#botao:hover{
+    background-color: var(--cor3);
+    transition: 400ms;
+    box-shadow: 1px 1px 5px black inset;
+}
