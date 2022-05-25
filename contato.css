@@ -85,10 +85,21 @@ main >  span section:nth-child(2){
     box-shadow: 1px 1px 5px black inset;
 }
 
+#contatos{
+    position: relative;
+}
 #contatos > span{
     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     background-color: #257d7713;
     padding: 20px;
     border-radius: 50px;
+}
+
+#contatos > span p {
+    padding: 10px;
+    margin-right: 10px;
 }
